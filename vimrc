@@ -32,7 +32,6 @@ au FocusLost * :wa              " Set vim to save the file on focus out.
 
 set fileformats=unix,dos,mac    " Prefer Unix over Windows over OS 9 formats
 
-set noshowmatch                 " Do not show matching brackets by flickering
 set noshowmode                  " We show the mode with airline or lightline
 set incsearch                   " Shows the match while typing
 set hlsearch                    " Highlight found searches
@@ -73,7 +72,6 @@ set complete-=i
 set showmatch
 set smarttab
 
-set et
 set tabstop=4
 set shiftwidth=4
 set expandtab
